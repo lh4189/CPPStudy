@@ -31,5 +31,4 @@
 *.out
 *.app
 
-MainApplication/obj/*
-MainApplication/bin/*
+*.depend
