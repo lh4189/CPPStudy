@@ -13,6 +13,7 @@
 				<Option compiler="cygwin" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="cygwin" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 		</Build>
@@ -29,7 +31,19 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Node.h" />
+		<Unit filename="include/NodeFactory.h" />
+		<Unit filename="include/Pipeline.h" />
+		<Unit filename="include/SampleNode.h" />
+		<Unit filename="include/StructInitMethod.h" />
+		<Unit filename="include/Utils.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Node.cpp" />
+		<Unit filename="src/NodeFactory.cpp" />
+		<Unit filename="src/Pipeline.cpp" />
+		<Unit filename="src/SampleNode.cpp" />
+		<Unit filename="src/StructInitMethod.cpp" />
+		<Unit filename="src/Utils/Utils.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

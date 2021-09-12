@@ -13,7 +13,7 @@ void LOGE();
 #define GET_FILENAME Utils::getFileName
 
 #define LOGI(format,args...) printf("["LOG_TAG " ] " "[I  ]" "%s:%d %s() " format "\n", GET_FILENAME(__FILE__),__LINE__, __FUNCTION__, ##args)
-#define LOGE(format,args...) printf("["LOG_TAG " ] " "[I  ]" "%s:%d %s() " format "\n", GET_FILENAME(__FILE__),__LINE__, __FUNCTION__, ##args)
+#define LOGE(format,args...) printf("["LOG_TAG " ] " "[E  ]" "%s:%d %s() " format "\n", GET_FILENAME(__FILE__),__LINE__, __FUNCTION__, ##args)
 
 class Utils{
 public:
